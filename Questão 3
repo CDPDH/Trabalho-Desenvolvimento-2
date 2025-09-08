@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <div class="box-model">
+  <head><style>
+;body{
+  font-family: Arial, Sans-Serif;
+  background-color: #f4f4f4;
+  margin: 25px;
+}
+.box-model {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ff6961;
+  margin: 30px;
+  background-color: #e0f7fa;
+}
+.h1 {
+  font-size: 24px;
+  margin: 0;
+}
+p {
+  font-size: 16px
+  margin: 10px 0;
+}
+h2 {
+  color:#ff6961;}
+input {
+  color:red;}
+}
+</style>
+    <meta charset="UTF-8"
+    <title>Questão 3</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+<h2> Formulário de Contato </h2>
+<form action="/submit_form" method="post">
+  <label for="name"> Nome: </label> <br>
+  <input type="text" id="name" name="name"> <br><br>
+
+  <label for="name"> E-mail: </label> <br>
+  <input type="text" id="name" name="name"> <br><br>
+
+  <label for="name"> Sua Mensagem: </label> <br>
+  <textarea type="text" id="name" name="name"> </textarea><br><br>
+
+  <input type="submit" value="Enviar">
+</form>
+</div>
+</body>
+<html></html>
