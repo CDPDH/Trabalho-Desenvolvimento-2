@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <div class="box-model">
+  <head><style>
+;body{
+  font-family: Arial, Sans-Serif;
+  background-color: #f4f4f4;
+  margin: 25px;
+}
+.box-model {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ff6961;
+  margin: 30px;
+  background-color: pink;
+}
+.h1 {
+  background-color: brown;
+  font-size: 24px;
+  margin: 0;
+}
+p {
+  background-color: brown;
+  font-size: 16px
+  margin: 10px 0;
+}
+h2 {
+  color:#ff6961;}
+input {
+  color:red;}
+table {
+  width: 0px;
+  padding: 20px;
+  border: 1px solid #ff6961;
+  margin: 30px;
+  background-color: pink;
+}
+</style>
+    <meta charset="UTF-8"
+    <title>Questão 2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<h2>Lista de Produtos</h2>
+<table border="1">
+  <tr>
+    <td>Produto</td>
+    <td>Preço</td>
+    <td>Quantidade no Estoque</td>
+  </tr>
+  <tr>
+    <td>PC Gamer</td>
+      <td>12199,99R$</td>
+        <td>5</td>
+  </tr>
+  <tr>
+    <td>Caixa de Som</td>
+      <td>27,99R$</td>
+        <td>23</td>
+        <tr>
+        <tr>
+    <td>Viper Mini Mouse</td>
+      <td>299,99R$</td>
+        <td>7</td>
+        <tr>
+    <td>Teclado Gamer</td>
+      <td>499,99R$</td>
+        <td>12</td>
+</table>
+</div>
