@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><Style>.title {
+  color: #5C6AC4;
+  text-align: center;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 8px solid #ff6961; /* Borda ao redor da imagem */
+  display: block;
+  margin: 0 auto;
+}
+
+.body {
+  font-family: Arial, Sans-Serif;
+  background-color: #f4f4f4;
+  margin: 25px;
+}
+
+.box-model {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ff6961; /* Borda ao redor do bloco */
+  border-radius: 20px; /* Borda arredondada */
+  margin: 30px;
+  background-color: pink;
+  text-align: center;
+}
+</Style>
+  <meta charset="UTF-8">
+  <title>Carlos Daniel Porto da Hora</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="box-model">
+    <img src="https://www.kasandbox.org/programming-images/animals/rabbit.png" alt="Foto" width="203">
+    <h1 class="title">Carlos Daniel Porto da Hora</h1>
+    <h2 class= "text"> Nasci dia 27/06 e entrei na escola quando fiz 6 meses, meu pai e mãe são veterinarios, minha irmã esta fazendo medicina</h2>
+  </div>
+</body>
+</html>
